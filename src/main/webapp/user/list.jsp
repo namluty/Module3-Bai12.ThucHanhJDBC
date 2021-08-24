@@ -18,6 +18,14 @@
     <h2>
         <a href="/users?action=create">Add New User</a>
     </h2>
+
+    <h2>
+        <a href="/users?action=Sort">Sort By Name</a>
+    </h2>
+    <form method="post" action="/users?action=search">
+            <input name="country" width="150px" placeholder="Viet Nam">
+            <button type="submit" >Search now</button>
+    </form>
 </center>
 <div align="center">
     <table border="1" cellpadding="5">
